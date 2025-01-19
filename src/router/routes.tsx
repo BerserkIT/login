@@ -8,7 +8,7 @@ const AppRoutes: React.FC = () => {
         <Router>
             <Routes>
                 <Route path="/login" element={<Login />} />
-                <Route path="*" element={<Login />} />
+                <Route path="/template_login_page/" element={<Login />} />
                 <Route path="Error" element={<Error404 />} />
             </Routes>
         </Router>
